@@ -1,0 +1,40 @@
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.flex-container > input{
+    border-radius: 0.5rem;
+    width: 5rem;
+    height: 5rem;
+    font-size: 1.7rem;
+}
+.form-control {
+    border-color: coral;
+    border-width: 2px;
+    background-color: transparent;
+}
+.flex-container > .square-vertical{
+    margin-bottom: 0.8rem;
+}
+.flex-container > .square-horizontal{
+    margin-right: 0.8rem;
+}
+#game{
+    width: fit-content;
+}
+.lightblue-background{
+    background-color: lightblue;
+}
+.more-padding{
+    padding-top: 5%;
+}
+#sudoku-icon{
+    width: 15%;
+    height: 15%;
+}
+@media (max-width: 1024px) {
+    .flex-container > input{
+        width: 2rem;
+        height: 2rem;
+    }
+}
