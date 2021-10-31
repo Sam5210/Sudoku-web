@@ -1,0 +1,63 @@
+
+.align-vertical-center{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.fit-content{
+    width: fit-content;
+}
+.flex-container {
+    flex-wrap: nowrap;
+}
+.flex-container > input{
+    border-radius: 0.5rem;
+    width: 4rem;
+    height: 4rem;
+    font-size: 1.7rem;
+}
+.flex-vertical{
+    flex-direction: column;
+}
+.flex, .flex-container, .flex-vertical{
+    display: flex;
+}
+.form-control {
+    border-color: coral;
+    border-width: 2px;
+    background-color: transparent;
+}
+.flex-container > .square-vertical{
+    margin-bottom: 0.8rem;
+}
+.flex-container > .square-horizontal{
+    margin-right: 0.8rem;
+}
+.lightblue-background{
+    background-color: lightblue;
+}
+#menu{
+    flex-direction: column;
+}
+.more-padding{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#sudoku-icon{
+    width: 8rem;
+    height: 8rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+@media (max-width: 800px) {
+    .flex-container > input{
+        width: 3rem;
+        height: 3rem;
+    }
+}
+@media (max-width: 576px) {
+    .flex-container > input{
+        width: 2rem;
+        height: 2rem;
+    }
+}
